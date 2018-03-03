@@ -1,4 +1,6 @@
-[![Import](https://cdn.infobeamer.com/s/img/import.png)](https://info-beamer.com/use?url=https://github.com/info-beamer/package-modules)
+Private fork fo info-beamer experiments
+
+[![Import](https://cdn.infobeamer.com/s/img/import.png)](https://github.com/beppefiocco/package-modules)
 
 # Modules
 
