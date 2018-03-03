@@ -53,7 +53,7 @@ def convert_unix_time(unix):
 
     tz = pytz.timezone('Europe/Berlin')
     dt = utc_dt.astimezone(tz)
-    day = ['Lunedì', 'Martedì', 'Mercoledì', 'Giovedì', 'Venerdì', 'Sabato', 'Domenica']
+    day = ['Lunedi', 'Martedi', 'Mercoledi', 'Giovedi', 'Venerdi', 'Sabato', 'Domenica']
     return day[dt.weekday()] + ', ' + dt.strftime("%d.%m.%y %H:%M")
 
 def local_image(url, max_size=(256, 256)):
