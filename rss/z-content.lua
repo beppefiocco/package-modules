@@ -7,7 +7,7 @@ local anims = require(api.localized "anims")
 
 local M = {}
 
-local font = resource.load_font(api.localized "font.ttf")
+local font = resource.load_font(api.localized "font2.ttf")
 local background
 
 local ticker = false
