@@ -73,7 +73,7 @@ local function Scroller(feed)
                 end
             end
 
-            local text_width = font:write(x, y+3, item.text, FONT_HEIGHT, 1,1,1,1)
+            local text_width = font:write(x, y, item.text, FONT_HEIGHT, 1,1,1,1)
             x = x + text_width
 
             if x < 0 then
