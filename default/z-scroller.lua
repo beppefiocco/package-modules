@@ -11,7 +11,7 @@ local foreground = {r=1,g=1,b=1,a=1}
 local title = ""
 local speed = 100
 
-local HEIGHT = 50
+local HEIGHT = 55
 local FONT_HEIGHT = HEIGHT - 15
 
 local font
