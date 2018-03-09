@@ -12,7 +12,7 @@ local title = ""
 local speed = 100
 
 local HEIGHT = 50
-local FONT_HEIGHT = HEIGHT - 10
+local FONT_HEIGHT = HEIGHT - 15
 
 local font
 
@@ -73,7 +73,7 @@ local function Scroller(feed)
                 end
             end
 
-            local text_width = font:write(x, y+1, item.text, FONT_HEIGHT, 1,1,1,1)
+            local text_width = font:write(x, y+2, item.text, FONT_HEIGHT, 1,1,1,1)
             x = x + text_width
 
             if x < 0 then
